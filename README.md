@@ -30,7 +30,7 @@
 
 （12）潇洒：https://download.kstore.space/download/2863/01.txt
 
-（13）佰欣园：https://gh-proxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
+（13）佰欣园：https://github.com/chengxueli818913/TV/blob/main/api.json
 
 （14）胖虎：https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json
 
