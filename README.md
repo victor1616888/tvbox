@@ -14,7 +14,7 @@
 
 （4）饭太硬：http://饭太硬.ga/x/o.json
 
-（5）霜辉月明py：https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
+（5）霜辉月明py：https://gh-proxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
 
 （6）小雅dr：http://drpy.site/js1
 
@@ -30,7 +30,7 @@
 
 （12）潇洒：https://download.kstore.space/download/2863/01.txt
 
-（13）佰欣园：https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
+（13）佰欣园：https://gh-proxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
 
 （14）胖虎：https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json
 
