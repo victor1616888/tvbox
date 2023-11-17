@@ -2,10 +2,10 @@
 "spider":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/tvbox.jar",
 
 
-"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/","url":"https://download.kstore.space/download/3329/20230109.txt"}],
+"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/","url":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/20230109.txt"}],
 
-"wallpaper": "https://api.yimian.xyz/img?type=wallpaper",
-
+//"wallpaper": "https://api.yimian.xyz/img?type=wallpaper",
+"wallpaper": "https://bing.img.run/rand.php",
 "sites":[
 {"key": "csp_xp_yinfans","name": "💥音范丝4K","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/chengxueli818913/TV/main/json/%E9%9F%B3%E8%8C%83%E4%B8%9D.json"},
 {"key": "狐狸","name": "🦊狐狸┃4k", "type": 3,"api": "csp_AppYsV2",  "searchable": 1, "quickSearch": 1,  "filterable": 1, "ext": "https://www.kuin.one/api.php/app/"}, 
