@@ -28,6 +28,7 @@
     {"url": "https://ghproxy.net/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json","name": "🚀香雅情镜像线路"},
     {"url": "https://xn--3d2a1b.eu.org/","name": "🚀蜂蜜线路"},
    {"url": "https://gh-proxy.com/raw.githubusercontent.com/PizazzGY/TVBox/main/api.json", "name": "🚀潇洒哥线路"},
+   {"url": "https://freed.yuanhsing.cf/TVBox/meowcf.json", "name": "元兴线路"},
         {  "url": "http://pandown.pro/tvbox/tvbox.json", "name": "🚀巧计线路"},
         { "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lxhfans/TV/master/tv.txt","name": "🚀乐享汇线路" },
         {"url": "http://t.84jia.com:80/tvbox/tvbox.json","name": "🚀小鱼线路"},
