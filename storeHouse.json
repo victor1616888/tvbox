@@ -6,7 +6,7 @@
   
  { "url": "https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/tvbox.json", "name": "邕城老友"},
  { "url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/js.json", "name": "高天流云 JS"},
- { "url": "https://raw.liucn.cc/box/m.json", "name": "老刘备线路" },
+ {"url": "http://dxawi.github.io/0/0.json","name": "🚀dxawi线路" },
   {"url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/0821.json", "name": "高流饭太硬+"},
   {"url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/0822.json", "name": "高天流云OK俊于"},
   {"url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/0825.json","name": "高天流云Panda G"},
@@ -19,6 +19,7 @@
   {"url": "http://home.jundie.top:81/top98.json","name": "俊佬线路"},
   { "url": "http://8.210.232.168/xc.json","name": "星辰线路"},
  {"url": "https://jihulab.com/z-blog/xh2/-/raw/main/t.json", "name": "小何线路"},
+ { "url": "https://raw.liucn.cc/box/m.json", "name": "老刘备线路" },
  {"url": "https://gh-proxy.com/https://raw.githubusercontent.com/w1915591935/TVBOX-/main/TVBox/一木自用.json","name": "🍎一木自用线路" },
  {"url": "http://gitcdn.top/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/备用.json", "name": "🍎一木备用线路"},
   { "url": "http://饭太硬.top/tv","name": "🚀饭太硬线路"},
@@ -33,7 +34,7 @@
         { "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lxhfans/TV/master/tv.txt","name": "🚀乐享汇线路" },
         {"url": "http://t.84jia.com:80/tvbox/tvbox.json","name": "🚀小鱼线路"},
         {"url": "https://weixine.net/ysc.json","name": "🚀运输车线路" },
-        { "url": "http://rihou.cc:99/荷城茶秀", "name": "🚀荷城茶秀线路"},
+        { "url": "http://rihou.cc:99/荷城茶秀", "name": "🚀荷城茶秀99线"},
 {"url": "https://notabug.org/imbig66/tv-spider-man/raw/master/%E9%85%8D%E7%BD%AE/0801.json","name": "🚀胖虎线路" },
         {"url": "https://dybz.store/dybz","name": "🚀大眼仔线路" },
         {"url": "https://100km.top/0", "name": "🚀骚 0线路"},
@@ -50,10 +51,7 @@
       { "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",  "name": "🚀南风线路" },
         {"url": "https://神器每日推送.tk/pz.json","name": "🚀神器线路"},
     {"url": "http://drpy.site/js1","name": "🚀小雅线路"},
- {
-            "name": "🐝蜂窝接口",
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"
-        },
+ {"name": "🐝蜂窝接口","url": "https://ghproxy.net/https://raw.githubusercontent.com/xiaolinshao/linshao/main/1.json"},
 {"name":"🍚饭太硬","url":"http://饭太硬.top/tv"},
 {"name":"🐼肥猫","url":"http://我不是.肥猫.love:63/接口禁止贩卖"},
 {"name":"🎬影探","url":"http://www.lyyytv.cn/yt/yt.json"},
@@ -96,74 +94,32 @@
  { "url": "https://agit.ai/376242575/line1/raw/branch/master/line1.json", "name": "🧛‍♂️人人资源" },
  { "url": "http://biu.alwaysdata.net/box.json","name": "🦊牛大佬源" },
  { "url": "https://agit.ai/sejinan/app/raw/branch/box/1.m3u8", "name": "🐻沃影主站" },
-        {"url": "http://刚刚.live/猫","name": "🐼肥猫接口" },
+ {"url": "http://刚刚.live/猫","name": "🐼肥猫接口" },
 {"name": "🌿春溢天下", "url": "https://wds.ecsxs.com/230989.json"},
-     { "name": "🍀春盈接口", "url": "http://wp.anxwl.cn/down.php/245a89be183aeddb85d1501ed5eb3260.json"},
-    {"name": "🍄cat满接口","url": "http://122.51.37.23/man/cally4.xx.json" },
-  {"name": "🎁月光宝盒", "url": "https://agit.ai/guot54/ygbh/raw/branch/master/pro%e5%8e%9f.json"},
-   {"name": "🥣小米接口","url": "http://xhww.fun:63/小米/DEMO.json" },
-  {"name": "🐺猎狼影视", "url": "https://www.lltv8.top" },
-{
-            "name": "☔️缘聚缘散",
-            "url": "https://agit.ai/alanchaotang/if/raw/branch/main/X.json"},
-  {
-            "name": "🌰精品商铺",
-            "url": "http://xxxoo.shop"
-        },
-  {
-            "name": "🌪海风线路",
-            "url": "https://agit.ai/haifeng2777/TVB/raw/branch/master/TVBOX/00.json"
-        },
-  {
-            "name": "🌪海风爱腾",
-            "url": "https://agit.ai/haifeng2777/TVB/raw/branch/master/TVBOX/8.json"
-        }, 
-
-{
-            "name": "🎯徐哥影视",
-            "url": "https://agit.ai/hu/hcr/raw/branch/master/xu.json"
-        },
-
-
-
-{
-            "name": "👮锦哥影视",
-            "url": "http://jin.锦哥哥.love"
-        },
-{
-            "name": "🏄🏻abc影视",
-            "url": "https://agit.ai/n/b/raw/branch/a/b/c.json"
-        },
-{
-            "name": "🛠非凡工具",
-            "url": "https://codeberg.org/jgfx/dym/raw/branch/master/master825.json"
-        },
-{
-            "name": "🌴CatT4口",
-            "url": "https://agit.ai/ddx/TVBox/raw/branch/master/t4.json"
-        },
-{
-            "name": "🌿Cat接口",
-            "url": "https://agit.ai/ddx/TVBox/raw/branch/master/catbox.json"
-        },
-{  "name": "🌹爱TV接口",
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/video/tv4k.json"
-        },
+{ "name": "🍀春盈接口", "url": "http://wp.anxwl.cn/down.php/245a89be183aeddb85d1501ed5eb3260.json"},
+{"name": "🍄cat满接口","url": "http://122.51.37.23/man/cally4.xx.json" },
+ {"name": "🎁月光宝盒", "url": "https://agit.ai/guot54/ygbh/raw/branch/master/pro%e5%8e%9f.json"},
+ {"name": "🥣小米接口","url": "http://xhww.fun:63/小米/DEMO.json" },
+ {"name": "🐺猎狼影视", "url": "https://www.lltv8.top" },
+{"name": "☔️缘聚缘散", "url": "https://agit.ai/alanchaotang/if/raw/branch/main/X.json"},
+  {"name": "🌰精品商铺","url": "http://xxxoo.shop" },
+  { "name": "🌪海风线路", "url": "https://agit.ai/haifeng2777/TVB/raw/branch/master/TVBOX/00.json"},
+  {"name": "🌪海风爱腾","url": "https://agit.ai/haifeng2777/TVB/raw/branch/master/TVBOX/8.json"}, 
+{"name": "🎯徐哥影视","url": "https://agit.ai/hu/hcr/raw/branch/master/xu.json"},
+{ "name": "👮锦哥影视", "url": "http://jin.锦哥哥.love"},
+{ "name": "🏄🏻abc影视", "url": "https://agit.ai/n/b/raw/branch/a/b/c.json"},
+{ "name": "🛠非凡工具","url": "https://codeberg.org/jgfx/dym/raw/branch/master/master825.json" },
+{"name": "🌴CatT4口","url": "https://agit.ai/ddx/TVBox/raw/branch/master/t4.json" },
+{"name": "🌿Cat接口", "url": "https://agit.ai/ddx/TVBox/raw/branch/master/catbox.json" },
+{  "name": "🌹爱TV接口", "url": "https://ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/video/tv4k.json" },
 {"name":"🥙妃天影视","url":"https://jihulab.com/moyuer/jk/-/raw/main/moyu.json"},
 {"name":"🏁速度搜索","url":"http://52bsj.vip:81/api/v3/file/get/172234/%E6%98%9F%E6%98%9F%E5%BD%B1%E8%A7%86%E4%BB%93%E5%BA%93%E5%86%85%E5%AE%B9.txt?sign=qZLVlqUfttYuVJdIw75KcAdx_ZzeZSJgKdmcba48U3U%3D%3A0"},
-    {"name": "🌈盐枭接口","url": "https://9xi4o.tk/tvbox.json"},
+   {"name": "🌈盐枭接口","url": "https://9xi4o.tk/tvbox.json"},
    { "name": "🛀🏻影音天堂","url": "https://www.ywsj.cf/upload/2023/10/yyzq4k.json" },  
 {"name": "❣️壹梦","url": "http://qrh.yimkj.cn/ym/壹梦.json"},
 {  "name": "🥃荷城茶秀88",  "url": "http://rihou.cc:88/荷城茶秀" },
- {
-            "name": "🍭徐徐影视",
-            "url": "http://xutv.hz.cz/tv/xu106.txt"
-        },
-        
-        {
-            "name": "🍱栩栩如生",
-            "url": "https://download.kstore.space/download/4907/jcsq/fx.json"
-        },
+ { "name": "🍭徐徐影视","url": "http://xutv.hz.cz/tv/xu106.txt" },        
+  { "name": "🍱栩栩如生", "url": "https://download.kstore.space/download/4907/jcsq/fx.json"},
      {
             "name": "🎁小盒酷玩",
             "url": "http://小盒酷玩.fun:66/禁止贩卖"
@@ -230,6 +186,6 @@
         {"name": "💛猫技接口","url": "https://agit.ai/ddx/nmys/raw/branch/master/feimao.json"},
         
  { "url": "https://notabug.org/qizhen15800/My9394/raw/master/ProfessionalEdition.m3u8","name": "📌量帅接口"},
-  {"url": "https://agit.ai/376242575/zzh/raw/branch/master/美食.txt ", "name": "🍔美食专线"  },
- {"url": "http://dxawi.github.io/0/0.json","name": "🚀dxawi线路" }
+  {"url": "https://agit.ai/376242575/zzh/raw/branch/master/美食.txt ", "name": "🍔美食专线"  }
+
   ]}
