@@ -1,9 +1,10 @@
-﻿//电视直播：https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/20230109.txt
-//线路仓库接口：https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/gaotianliuyun.txt
+﻿//电视直播：aHR0cHM6Ly9naHByb3h5Lm5ldC9odHRwczovL2dpdGh1Yi5jb20vdmljdG9yMTYxNjg4OC90dmJveC9ibG9iL21haW4vMjAyMzAxMDkudHh0
+
+//老友仓库接口：https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/gaotianliuyun.txt
 
 {"urls": [
   
- { "url": "https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/tvbox.json", "name": "南宁自用线路"},
+ { "url": "https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/tvbox.json", "name": "邕城老友"},
  { "url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/js.json", "name": "高天流云 JS"},
  { "url": "https://raw.liucn.cc/box/m.json", "name": "老刘备线路" },
   {"url": "https://ghproxy.net/https://github.com/gaotianliuyun/gao/blob/master/0821.json", "name": "高流饭太硬+"},

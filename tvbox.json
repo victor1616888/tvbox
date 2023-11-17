@@ -1,6 +1,10 @@
 ﻿{
 "spider":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/tvbox.jar",
-"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/","url":"https://download.kstore.space/download/3329/20230109.txt"}],
+
+
+
+"lives": [ {"group": "redirect","channels": [{"name": "live", "urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9kb3dubG9hZC5rc3RvcmUuc3BhY2UvZG93bmxvYWQvMzMyOS8yMDIzMDEwOS50eHQ==" ]}]}],
+//"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/","url":"https://download.kstore.space/download/3329/20230109.txt"}],
 
 "wallpaper": "https://api.yimian.xyz/img?type=wallpaper",
 
