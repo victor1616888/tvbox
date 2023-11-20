@@ -1,37 +1,48 @@
-// import 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/es6py.js';
-// import {是否正版,urlDeal,setResult,setResult2,setHomeResult,maoss,urlencode} from 'http://192.168.10.103:5705/libs/es6py.js';
-// import 'http://192.168.1.124:5705/libs/es6py.js';
-import cheerio from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/cheerio.min.js';
-// import cheerio from 'http://192.168.10.103:5705/libs/cheerio.min.js';
-import 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-js.js';
-import 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drT.js';
-import 模板 from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/模板.js';
-import {gbkTool} from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/gbk.js'
-// import 'http://192.168.10.103:5705/libs/drT.js';
-// import muban from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/模板.js';
-// import muban from 'http://192.168.10.103:5705/admin/view/模板.js';
+import cheerio from 'assets://js/lib/cheerio.min.js';
+import 'assets://js/lib/crypto-js.js';
+import 模板 from"../js/模板.js"
+import {gbkTool} from './gbk.js'
+// import './rsa.js'
 
-// const key = 'drpy_zbk';
-// eval(req('http://192.168.1.124:5705/libs/es6py.js').content);
+// import cheerio from "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/cheerio.min.js";
+// import "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/crypto-js.js";
+// import 模板 from"https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/模板.js";
+// import {gbkTool} from 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/gbk.js'
+
 function init_test(){
     // console.log(typeof(CryptoJS));
     console.log("init_test_start");
+    // print(模板);
+    // print(typeof(模板.getMubans));
     console.log("当前版本号:"+VERSION);
     console.log(RKEY);
     console.log(JSON.stringify(rule));
-    // console.log('123456的md5值是:'+md5('123456'));
-    // let aa = base64Encode('编码测试一下')
-    // log(aa);
-    // let bb = base64Decode(aa);
-    // log('bb:'+bb);
-    // clearItem(RULE_CK);
-    // console.log(JSON.stringify(rule));
-    // console.log(request('https://www.baidu.com',{withHeaders:true}));
-    // console.log(request('https://www.baidu.com/favicon.ico',{toBase64:true}));
-    // require('http://192.168.10.99:5705/txt/pluto/drT.js');
-    // console.log(typeof(drT));
-    // console.log(drT.renderText('{{fl.cate}},hi, {{fl}}哈哈.{{fl}}',{sort: 1,cate:'movie'},'fl'));
     console.log("init_test_end");
+
+    // console.log(typeof (CryptoJS));
+    // console.log(typeof (JSEncrypt));
+    // var publicKey = "-----BEGIN PUBLIC KEY-----\n" +
+    //     "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTTt5d1LYtIxiW9ekKFBVonFOT\n" +
+    //     "XJHv4PY4xCDLPYbHWRKa/mRO7J11OJX+cR7bqzNq6uxH1W339wV\n" +
+    //     "lLP/x3Rl1RBh4prj0eYOEIsDVTvLTJONKazRtQrZ7yzSZ69o/3CQv\n" +
+    //     "ex6kb4js+9zho4U9fwIDAQAB\n" +
+    //     "-----END PUBLIC KEY-----";
+    // var text = '你好';
+    // const encryptor = new JSEncrypt();
+    // console.log(typeof (encryptor.setPublicKey));
+    // console.log(typeof (encryptor.encrypt));
+    // encryptor.setPublicKey(publicKey) // 设置公钥
+    // var str = encryptor.encrypt(text) // 对数据进行加密
+    // console.log("加密数据：" + str);
+    // log('rsax:'+typeof(rsax));
+    // log('rsaX:'+typeof(rsaX));
+    // let data = base64Encode('你好');
+    // let publicKey = 'dzyyds';
+    // console.log(typeof (RSA.encode));
+    // let encryptBase64Data = RSA.encode(data,publicKey);
+    // log('encryptBase64Data:'+encryptBase64Data);
+    // let str = RSA.decode(data,publicKey);
+    // log('str:'+str);
 }
 
 /**
@@ -55,17 +66,19 @@ function pre(){
 }
 
 let rule = {};
-const VERSION = 'drpy1 3.9.48beta16 20231011';
+let vercode = typeof(pdfl) ==='function'?'drpy2.1':'drpy2';
+const VERSION = vercode+' 3.9.48beta16 20231011';
 /** 已知问题记录
  * 1.影魔的jinjia2引擎不支持 {{fl}}对象直接渲染 (有能力解决的话尽量解决下，支持对象直接渲染字符串转义,如果加了|safe就不转义)[影魔牛逼，最新的文件发现这问题已经解决了]
  * Array.prototype.append = Array.prototype.push; 这种js执行后有毛病,for in 循环列表会把属性给打印出来 (这个大毛病需要重点排除一下)
  * 2.import es6py.js但是里面的函数没有被装载进来.比如drpy规则报错setResult2 is undefiend(合并文件了可以不管了)
  * 3.无法重复导入cheerio(怎么解决drpy和parseTag里都需要导入cheerio的问题) 无法在副文件导入cheerio (现在是全部放在drpy一个文件里了,凑合解决?)
  * 4.有个错误不知道哪儿来的 executeScript: com.quickjs.JSObject$Undefined cannot be cast to java.lang.String 在 点击选集播放打印init_test_end后面打印(貌似不影响使用)
- * 5.需要实现 stringify 函数,比起JSON.stringify函数,它会原封不动保留中文不会编码unicode
+ * 5.需要实现 stringify 函数,比起JSON.strifngify函数,它会原封不动保留中文不会编码unicode
  * 6.base64Encode,base64Decode,md5函数还没有实现 (抄影魔代码实现了)
  * 7.eval(getCryptoJS());还没有实现 (可以空实现了,以后遇到能忽略)
  * done:  jsp:{pdfa,pdfh,pd},json:{pdfa,pdfh,pd},jq:{pdfa,pdfh,pd}
+ * 8.req函数不支持传递字符串的data参数 {'content-type':'text/plain'} 类型数据，因此无法直接调用alist的ocr接口
  *  * 电脑看日志调试
  adb tcpip 5555
  adb connect 192.168.10.192
@@ -113,11 +126,13 @@ var _pd;
 const DOM_CHECK_ATTR = /(url|src|href|-original|-src|-play|-url|style)$/;
 // 过滤特殊链接,不走urlJoin
 const SPECIAL_URL = /^(ftp|magnet|thunder|ws):/;
+const NOADD_INDEX = /:eq|:lt|:gt|:first|:last|^body$|^#/;  // 不自动加eq下标索引
+const URLJOIN_ATTR = /(url|src|href|-original|-src|-play|-url|style)$/;  // 需要自动urljoin的属性
 const SELECT_REGEX = /:eq|:lt|:gt|#/g;
 const SELECT_REGEX_A = /:eq|:lt|:gt/g;
 
 /**
-es6py扩展
+ es6py扩展
  */
 if (typeof Object.assign != 'function') {
     Object.assign = function () {
@@ -514,7 +529,6 @@ function forceOrder(lists,key,option){
     return lists
 }
 
-
 let VODS = [];// 一级或者搜索需要的数据列表
 let VOD = {};// 二级的单个数据
 let TABS = [];// 二级的自定义线路列表 如: TABS=['道长在线','道长在线2']
@@ -562,20 +576,7 @@ var urljoin2 = urljoin;
 const defaultParser = {
     pdfh:pdfh,
     pdfa:pdfa,
-    pd(html,parse,uri){
-        let ret = this.pdfh(html,parse);
-        if(typeof(uri)==='undefined'||!uri){
-            uri = '';
-        }
-        if(DOM_CHECK_ATTR.test(parse) && !SPECIAL_URL.test(ret)){
-            if(/http/.test(ret)){
-                ret = ret.substr(ret.indexOf('http'));
-            }else{
-                ret = urljoin(MY_URL,ret)
-            }
-        }
-        return ret
-    },
+    pd:pd,
 };
 
 
@@ -711,108 +712,32 @@ const parseTags = {
         },
     },
     jq:{
-        pdfh(html, parse, base_url) {
-            if (!parse || !parse.trim()) {
+        pdfh(html, parse) {
+            if (!html||!parse || !parse.trim()) {
                 return ''
             }
-            let eleFind = typeof html === 'object';
-            let option = undefined;
-            if (eleFind && parse.startsWith('body&&')) {
-                parse = parse.substr(6);
-                if (parse.indexOf('&&') < 0) {
-                    option = parse.trim();
-                    parse = '*=*';
-                }
-            }
-            if (parse.indexOf('&&') > -1) {
-                let sp = parse.split('&&');
-                option = sp[sp.length - 1];
-                sp.splice(sp.length - 1);
-                if (sp.length > 1) {
-                    for (let i in sp) {
-                        //Javascript自定义Array.prototype干扰for-in循环
-                        if(sp.hasOwnProperty(i)){
-                            if (!SELECT_REGEX.test(sp[i])) {
-                                sp[i] = sp[i] + ':eq(0)';
-                            }
-                        }
-                    }
-                } else {
-                    if (!SELECT_REGEX.test(sp[0])) {
-                        sp[0] = sp[0] + ':eq(0)';
-                    }
-                }
-                parse = sp.join(' ');
-            }
-            let result = '';
-            const $ = eleFind ? html.rr : cheerio.load(html);
-            let ret = eleFind ? ((parse === '*=*' || $(html.ele).is(parse)) ? html.ele : $(html.ele).find(parse)) : $(parse);
-            if (option) {
-                if (option === 'Text') {
-                    result = $(ret).text();
-                }
-                else if (option === 'Html') {
-                    result = $(ret).html();
-                }
-                else {
-                    result = $(ret).attr(option);
-                    if(/style/.test(option.toLowerCase())&&/url\(/.test(result)){
-                        try {
-                            result =  result.match(/url\((.*?)\)/)[1];
-                            // 2023/07/28新增 style取内部链接自动去除首尾单双引号
-                            result = result.replace(/^['|"](.*)['|"]$/, "$1");
-                        }catch (e) {}
-                    }
-                }
-                if (result && base_url && DOM_CHECK_ATTR.test(option) && !SPECIAL_URL.test(result)) {
-                    if (/http/.test(result)) {
-                        result = result.substr(result.indexOf('http'));
-                    } else {
-                        result = urljoin(base_url, result)
-                    }
-                }
-            } else {
-                result = $(ret).toString();
-            }
+            parse = parse.trim();
+            let result = defaultParser.pdfh(html,parse);
+            // print(`pdfh解析${parse}=>${result}`);
             return result;
         },
         pdfa(html, parse) {
-            if (!parse || !parse.trim()) {
-                print('!parse');
+            if (!html||!parse || !parse.trim()) {
                 return [];
             }
-            let eleFind = typeof html === 'object';
-            // print('parse前:'+parse);
-            if (parse.indexOf('&&') > -1) {
-                let sp = parse.split('&&');
-                for (let i in sp) {
-                    if(sp.hasOwnProperty(i)){
-                        if (!SELECT_REGEX_A.test(sp[i]) && i < sp.length - 1) {
-                            if(sp[i]!=='body'){
-                                // sp[i] = sp[i] + ':eq(0)';
-                                sp[i] = sp[i] + ':first';
-                            }
-                        }
-                    }
-                }
-                parse = sp.join(' ');
-            }
-            // print('parse后:'+parse);
-            const $ = eleFind ? html.rr : cheerio.load(html);
-            let ret = eleFind ? ($(html.ele).is(parse) ? html.ele : $(html.ele).find(parse)) : $(parse);
-            let result = [];
-            // print('outerHTML:');
-            // print($(ret[0]).prop("outerHTML"));
-            if (ret) {
-                ret.each(function (idx, ele) {
-                    result.push({ rr: $, ele: ele });
-                    // result.push({ rr: $, ele: $(ele).prop("outerHTML")}); // 性能贼差
-                });
-            }
+            parse = parse.trim();
+            let result = defaultParser.pdfa(html,parse);
+            // print(result);
+            print(`pdfa解析${parse}=>${result.length}`);
             return result;
         },
-        pd(html,parse,uri){
-            return parseTags.jq.pdfh(html, parse, MY_URL);
+        pd(html,parse,base_url){
+            if (!html||!parse || !parse.trim()) {
+                return ''
+            }
+            parse = parse.trim();
+            base_url = base_url||MY_URL;
+            return defaultParser.pd(html, parse, base_url);
         },
     },
     getParse(p0){//非js开头的情况自动获取解析标签
@@ -886,7 +811,9 @@ var OcrApi={
             log('通过drpy_ocr验证码接口过验证...');
             let html = request(OCR_API,{data:{img:img},headers:{'User-Agent':PC_UA},'method':'POST'},true);
             code = html||'';
-        }catch (e) {}
+        }catch (e) {
+            log(`OCR识别验证码发生错误:${e.message}`)
+        }
         return code
     }
 };
@@ -1381,7 +1308,7 @@ function homeVodParse(homeVodObj){
                             // print(vod);
                             d.push(vod);
                         } catch (e) {
-                            console.log('首页列表处理发生错误:'+e.message);
+                            console.log('首页列表双层定位处理发生错误:'+e.message);
                         }
 
                     }
@@ -1397,6 +1324,7 @@ function homeVodParse(homeVodObj){
                 let p3 = getPP(p,3,pp,3);
                 let p4 = getPP(p,4,pp,4);
                 let p5 = getPP(p,5,pp,5);
+
                 for (let item of items) {
                     try {
                         let title = _pdfh(item, p1);
@@ -1433,7 +1361,7 @@ function homeVodParse(homeVodObj){
                         d.push(vod);
 
                     } catch (e) {
-
+                        console.log('首页列表单层定位处理发生错误:'+e.message);
                     }
 
                 }
@@ -1510,9 +1438,6 @@ function categoryParse(cateObj) {
         let new_url;
         new_url = cheerio.jinja2(url,{fl:fl});
         // console.log('jinjia2执行后的new_url类型为:'+typeof(new_url));
-        if(/object Object/.test(new_url)){
-            new_url = drT.renderText(url,fl);
-        }
         url = new_url;
     }
     if(/fypage/.test(url)){
@@ -1639,6 +1564,7 @@ function searchParse(searchObj) {
     }else if(searchObj.pg > 1 && url.includes('[')&&url.includes(']')){
         url = url.split('[')[0];
     }
+
     if(/fypage/.test(url)){
         if(url.includes('(')&&url.includes(')')){
             let url_rep = url.match(/.*?\((.*)\)/)[1];
@@ -1860,7 +1786,6 @@ function detailParse(detailObj){
             html = getHtml(MY_URL);
         }
         print(`二级${MY_URL}仅获取源码耗时:${(new Date()).getTime()-tt1}毫秒`);
-        let _impJQP = false;
         let _ps;
         if(p.is_json){
             print('二级是json');
@@ -1877,16 +1802,6 @@ function detailParse(detailObj){
             _ps = parseTags.jq;
             // print('二级默认jsp');
             // _ps = parseTags.jsp;
-        }
-        if(_ps === parseTags.jq){ // jquery解析提前load(html)
-            _impJQP = true;
-        }
-        if (_impJQP) {
-            let ttt1 = (new Date()).getTime();
-            let c$ = cheerio.load(html);
-            // print(`二级${MY_URL}仅c$源码耗时:${(new Date()).getTime()-ttt1}毫秒`);
-            html = { rr: c$, ele: c$('html')[0] };
-            print(`二级${MY_URL}仅cheerio.load源码耗时:${(new Date()).getTime()-ttt1}毫秒`);
         }
         let tt2 = (new Date()).getTime();
         print(`二级${MY_URL}获取并装载源码耗时:${tt2-tt1}毫秒`);
@@ -1933,21 +1848,12 @@ function detailParse(detailObj){
         if(p.重定向&&p.重定向.startsWith('js:')){
             print('开始执行重定向代码:'+p.重定向);
             html = eval(p.重定向.replace('js:',''));
-            if (_impJQP) {
-                let c$ = cheerio.load(html);
-                html = { rr: c$, ele: c$('html')[0] }
-            }
         }
-        
+
 // console.log(2);
         if(p.tabs){
             if(p.tabs.startsWith('js:')){
                 print('开始执行tabs代码:'+p.tabs);
-                if(html&&_impJQP&&typeof (html)!=='string'){
-                    try { // 假装是jq的对象拿来转换一下字符串,try为了防止json的情况报错
-                        html = html.rr(html.ele).toString();
-                    }catch (e) {}
-                }
                 var input = MY_URL;
                 eval(p.tabs.replace('js:',''));
                 playFrom = TABS;
@@ -1989,12 +1895,6 @@ function detailParse(detailObj){
             if(p.lists.startsWith('js:')){
                 print('开始执行lists代码:'+p.lists);
                 try {
-                    if(html&&_impJQP&&typeof (html)!=='string'){
-                        // 假装是jq的对象拿来转换一下字符串,try为了防止json的情况报错
-                        try {
-                            html = html.rr(html.ele).toString();
-                        }catch (e) {}
-                    }
                     var input = MY_URL;
                     var play_url = '';
                     eval(p.lists.replace('js:',''));
@@ -2025,43 +1925,32 @@ function detailParse(detailObj){
                     let tab_ext =  p.tabs.split(';').length > 1 && !is_tab_js ? p.tabs.split(';')[1] : '';
                     let p1 = p.lists.replaceAll('#idv', tab_name).replaceAll('#id', i);
                     tab_ext = tab_ext.replaceAll('#idv', tab_name).replaceAll('#id', i);
-                    // 测试jsp提速
-                    // console.log(p1);
-                    // p1 = p1.replace(':eq(0)',',0').replace(' ','&&');
-                    // console.log(p1);
-                    // console.log(html);
-                    let vodList = [];
-                    try {
-                        vodList =  _pdfa(html, p1);
-                        console.log('len(vodList):'+vodList.length);
-                    }catch (e) {
-                        // console.log(e.message);
-                    }
-                    let new_vod_list = [];
-                    // print('tab_ext:'+tab_ext);
                     let tabName = tab_ext?_pdfh(html, tab_ext):tab_name;
                     console.log(tabName);
-                    // console.log('cheerio解析Text');
-                    // 此处存在性能问题: pt版2000集需要650毫秒,俊版1300毫秒 特么的优化不动 主要后面定位url的我拿他没法
-                    // 主要性能问题在于 _pd(it, list_url, MY_URL)
+                    // print('tab_ext:'+tab_ext);
+                    let new_vod_list = [];
                     let tt1 = (new Date()).getTime();
-                    // vodList.forEach((it,idex)=>{
-                    //     // 请注意,这里要固定pdfh解析body&&Text,不需要下划线,没写错
-                    //     // new_vod_list.push(pdfh(it,'body&&Text')+'$'+_pd(it,'a&&href',MY_URL));
-                    //     // new_vod_list.push(cheerio.load(it).text()+'$'+_pd(it,'a&&href',MY_URL));
-                    //     // new_vod_list.push(_pdfh(it, list_text).trim() + '$' + _pd(it, list_url, MY_URL));
-                    //     // new_vod_list.push(_pdfh(it, list_text).trim() + '$' +idex);
-                    //     // new_vod_list.push(idex + '$' +_pdfh(it, list_url));
-                    //     new_vod_list.push(_pdfh(it, list_text).trim() + '$' +_pd(it, list_url,MY_URL));
-                    // });
-                    if(vodList.length>0){
-                        for(let i=0;i<vodList.length;i++){
-                            let it = vodList[i];
-                            new_vod_list.push(_pdfh(it, list_text).trim() + '$' +_pd(it, list_url,MY_URL));
+                    // print('pdfl:'+typeof (pdfl));
+                    if(typeof (pdfl) ==='function'){
+                        new_vod_list = pdfl(html, p1, list_text, list_url, MY_URL);
+                    }else {
+                        let vodList = [];
+                        try {
+                            vodList =  _pdfa(html, p1);
+                            console.log('len(vodList):'+vodList.length);
+                        }catch (e) {
+                            // console.log(e.message);
                         }
-                        new_vod_list = forceOrder(new_vod_list,'',x=>x.split('$')[0]);
-                        console.log(`drpy影响性能代码共计列表数循环次数:${vodList.length},耗时:${(new Date()).getTime()-tt1}毫秒`);
+                        for (let i = 0; i < vodList.length; i++) {
+                            let it = vodList[i];
+                            new_vod_list.push(_pdfh(it, list_text).trim() + '$' + _pd(it, list_url, MY_URL));
+                        }
                     }
+                    if(new_vod_list.length>0){
+                        new_vod_list = forceOrder(new_vod_list,'',x=>x.split('$')[0]);
+                        console.log(`drpy影响性能代码共计列表数循环次数:${new_vod_list.length},耗时:${(new Date()).getTime()-tt1}毫秒`);
+                    }
+                    // print(new_vod_list);
                     let vlist = new_vod_list.join('#');
                     vod_tab_list.push(vlist);
                 }
@@ -2288,7 +2177,7 @@ function isVideoParse(isVideoObj){
  * js源预处理特定返回对象中的函数
  * @param ext
  */
- function init(ext) {
+function init(ext) {
     console.log('init');
     try {
         // make shared jsContext happy muban不能import,不然会造成换源继承后变量被篡改
@@ -2299,7 +2188,10 @@ function isVideoParse(isVideoObj){
         //     globalThis.mubanJs = mubanJs;
         // }
         // let muban = eval(globalThis.mubanJs);
+
         let muban = 模板.getMubans();
+        // print(typeof (muban));
+        // print(muban);
         if (typeof ext == 'object'){
             rule = ext;
         } else if (typeof ext == 'string') {
@@ -2350,7 +2242,6 @@ function isVideoParse(isVideoObj){
         }else{
             rule.url = rule.host && rule.url ? urljoin(rule.host,rule.url) : rule.url;
         }
-
         if(rule.searchUrl.includes('[')&&rule.searchUrl.includes(']')){
             let u1 = rule.searchUrl.split('[')[0]
             let u2 = rule.searchUrl.split('[')[1].split(']')[0]
@@ -2384,6 +2275,18 @@ function isVideoParse(isVideoObj){
                         console.log(v);
                         if(['MOBILE_UA','PC_UA','UC_UA','IOS_UA','UA'].includes(v)){
                             rule.headers[k] = eval(v);
+                        }
+                    }else if(k.toLowerCase() === 'cookie'){
+                        let v = rule.headers[k];
+                        if(v && v.startsWith('http')){
+                            console.log(v);
+                            try {
+                                v = fetch(v);
+                                console.log(v);
+                                rule.headers[k] = v;
+                            }catch (e) {
+                                console.log(`从${v}获取cookie发生错误:`+e.message);
+                            }
                         }
                     }
                 }
@@ -2468,6 +2371,7 @@ function category(tid, pg, filter, extend) {
 function detail(vod_url) {
     let orId = vod_url;
     let fyclass = '';
+    log('orId:'+orId);
     if(vod_url.indexOf('$')>-1){
         let tmp = vod_url.split('$');
         fyclass = tmp[0];
@@ -2556,6 +2460,7 @@ function proxy(params){
     };
     return proxyParse(proxyObj)
 }
+
 
 /**
  * 是否启用辅助嗅探功能,启用后可以根据isVideo函数进行手动识别为视频的链接地址。默认为false
