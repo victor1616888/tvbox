@@ -5,7 +5,10 @@
       "name": "七米藍",
       "server": "https://al.chirmyram.com"
     },
-
+{
+      "name": "小雅",
+      "server": "http://alist.xiaoya.pro"
+    },
 {
       "name": "弱水",
       "server": "http://shicheng.wang:555/"
@@ -24,10 +27,7 @@
       "name": "ECVE",
       "server": "https://pan.ecve.cn"
     },
-    {
-      "name": "小雅",
-      "server": "http://alist.xiaoya.pro"
-    },
+    
     {
       "name": "觸光",
       "server": "https://pan.ichuguang.com"
