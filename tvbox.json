@@ -172,9 +172,7 @@
 {"key":"drpy_js_JustLive","name":"弹幕 | JustLive[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/JustLive.js"},
 {"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/斗鱼直播.js"},
 {"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/虎牙直播.js"},
-
 {"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/alist.min.js","changeable":0,"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/alist.json"},
-
 {"key":"drpy_js_DJ音乐","name":"音频 | DJ音乐[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/DJ音乐.js"},
 {"key":"drpy_js_啦啦DJ","name":"音频 | 啦啦DJ[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/啦啦DJ.js"},
 {"key":"drpy_js_清风DJ","name":"音频 | 清风DJ[js]","type":3,"api":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"https://ghproxy.net/https://github.com/victor1616888/tvbox/blob/main/清风DJ.js"},
