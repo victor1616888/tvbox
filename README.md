@@ -1,8 +1,8 @@
  #  tvbox自用接口，所有内容均来源于网络，如有侵权，请联系删除。
  
- TVBOX 项目源码仓库 地址：https://github.com/CatVodTVOfficial/TVBoxOSC 。
+ TVBOX 项目源码仓库 地址：https://github.com/CatVodTVOfficial/TVBoxOSC 
  
- TVBOX APK仓库 下载地址：https://github.com/o0HalfLife0o/TVBoxOSC/releases。
+ TVBOX APK仓库 下载地址：https://github.com/o0HalfLife0o/TVBoxOSC/releases   
 
  TVBox各路大佬配置（排名不分先后）：
 
