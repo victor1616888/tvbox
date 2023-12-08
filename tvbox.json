@@ -5,7 +5,7 @@
 "spider":"https://mirror.ghproxy.com/https://github.com/victor1616888/tvbox/blob/main/tvbox.jar",
 
 
-"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/","url":"https://mirror.ghproxy.com/https://github.com/victor1616888/tvbox/blob/main/20230109.txt"}],
+"lives":[{"name":"直播","type":0,"epg":"http://epg.51zmt.top:8000/e.xml","logo":"https://epg.112114.xyz/logo/{name}.png","url":"https://mirror.ghproxy.com/https://github.com/victor1616888/tvbox/blob/main/20230109.txt"}],
 
 //"wallpaper": "https://api.yimian.xyz/img?type=wallpaper",
 "wallpaper": "https://bing.img.run/rand.php",
