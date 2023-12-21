@@ -103,6 +103,7 @@ CCTV8K,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw3005294665_-43359
 4KUHD,http://[2409:8087:2001:20:2800:0:df6e:eb10]:80/wh7f454c46tw3154895646_1897439205/ott.mobaibox.com/PLTV/3/224/3221227506/index.m3u8
 4KUHD,http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/wh7f454c46tw3557828768_-2114508791/ott.mobaibox.com/PLTV/3/224/3221228242/index.m3u8
 4KUHD,http://cdnrrs.gx.chinamobile.com/TVOD/77777777/224/3221225726/index.m3u8?#http://111.12.101.22:6610/PLTV/77777777/224/3221225726/index.m3u8?#http://gslbserv.itv.cmvideo.cn/1000000004000011651/1.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3#http://39.135.47.88/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225726/index.m3u8#http://gslbserv.itv.cmvideo.cn/1000000004000013730/index.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3#http://39.135.46.233:6610/PLTV/77777777/224/3221225726/index.m3u8?#http://39.135.138.58:18890/PLTV/88888888/224/3221225786/index.m3u8#http://39.135.47.88/PLTV/77777777/224/3221226802/index.m3u8#http://39.135.33.12/PLTV/77777777/224/3221226802/index.m3u8#http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8#http://39.135.47.88/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225726/index.m3u8#http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225786/index.m3u8
+北京纪实科教-8K,http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 北京纪实科教-8K,http://8kdowntest.brtvcloud.com/8klive/8kliveok.m3u8?txSecret=377f93028d9efd7c6ba8d82a2634ec73&txTime=64f839db#http://159.75.85.63:6798#http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001231/index.m3u8?
 CCTV8K测试,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 BesTV4K,http://[2409:8087:5e01:34::30]:6610/ZTE_CMS/00000001000000060000000000000202/index.m3u8?IAS
@@ -123,10 +124,12 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 广东综艺 宽色域(4k),http://61.140.126.197:8888/rtp/239.77.0.246:5146
 广东综艺(4k),http://61.140.126.197:8888/rtp/239.77.0.245:5146
 广东综艺 宽色域AVS2(4k) ,http://61.140.126.197:8888/rtp/239.77.0.252:5146
-南国都市4k,http://61.140.126.197:8888/rtp/239.253.43.99:5146#https://justsometime.gztv.com/sec/shenghuos.m3u8
-百事通4K电影,http://58.32.40.25:8000/udp/239.45.3.107:5140#http://nas.jdshipin.com:8801/4kys.php
-百事通4K纪实,http://58.32.40.25:8000/udp/239.45.1.10:5140
-百事通4K儿童,http://58.32.40.25:8000/udp/239.45.1.1:5140
+BOX RELAX 4K,http://89.248.160.57/iptv/UPKY3Y8BF6KNX8/19283/index.m3u8
+体育SKY SPORT 4K,http://89.248.160.57/iptv/W9DG7KKUWQ3T2H/6820/index.m3u8
+BCU Ultra 4K,http://89.248.160.57/iptv/W9DG7KKUWQ3T2H/11045/index.m3u8
+MM Flip UHD 4K,http://89.248.160.57/iptv/W9DG7KKUWQ3T2H/13057/index.m3u8
+SKY HIGH NATURE 4K,http://89.248.160.57/iptv/UPKY3Y8BF6KNX8/14247/index.m3u8
+
 Love Nrture 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 🇨🇳 港.澳.美食,#genre#
