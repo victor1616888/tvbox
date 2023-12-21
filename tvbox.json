@@ -1,5 +1,5 @@
 ﻿//范明明直播：https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
-
+//6566直播：https://w6566.github.io/tvlive/box/live/live.txt
 
 {
 "spider":"https://mirror.ghproxy.com/https://github.com/victor1616888/tvbox/blob/main/tvbox.jar",
@@ -8,6 +8,7 @@
 "lives":[{"name":"老友直播","type":0,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","url":"https://mirror.ghproxy.com/https://github.com/victor1616888/tvbox/blob/main/20230109.txt"},
 
 {"name":"IPV6直播","type":0,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","url":"https://kkgithub.com/ll996075dd/tvbox/blob/main/api/lib/live.txt"},
+{"name":"6566直播大全","type":0,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","url":"https://w6566.github.io/tvlive/box/live/live.txt"},
 {"name":"范明明直播源","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"番茄•综合","type":0,"url":"http://fanqie.gq/a/1701859592.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -15,6 +16,7 @@
 
 //"wallpaper": "https://api.yimian.xyz/img?type=wallpaper",
 "wallpaper": "https://bing.img.run/rand.php",
+
 "sites":[
 {"key": "csp_xp_yinfans","name": "💥音范丝4K","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/chengxueli818913/TV/main/json/%E9%9F%B3%E8%8C%83%E4%B8%9D.json"},
 
